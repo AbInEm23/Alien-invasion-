@@ -3,9 +3,9 @@ class Settings:
     def __init__(self):
         #initialize games static settings
         #sscreen settings 
-        self.screen_width = 1200
+        self.screen_width = 1200 # define dimensions of the game window 
         self.screen_height = 800
-        self.bg_color = (230,230,230)
+        self.bg_color = (230,230,230) #background color 
 
         #ship settings
         #self.ship_speed = 1.5
